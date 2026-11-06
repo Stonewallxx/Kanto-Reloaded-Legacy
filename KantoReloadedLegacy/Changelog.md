@@ -1,5 +1,19 @@
 # Kanto Reloaded Legacy Changelog
 
+## Kanto Reloaded Legacy Update #10 - Mod Safety
+
+v1.6.2
+
+Release Date: November 5, 2026
+
+### SUMMARY
+Kanto Reloaded Legacy is ready for KIF 2.0.0's Mod Safety: a new install gets one notice instead of being held until you allow it, and it no longer reads or writes anything outside the game.
+
+### CHANGES
+- It says what it needs when you install it, so KIF lets a new install in with one notice. On phones where KIF can't keep your OK between launches (Kirin), it now loads anyway
+- Nothing outside the game is read or written any more: its settings for every save stay in the game's save folder, as they already did on PC. On JoiPlay they were kept in a folder outside the game, so they start fresh once
+- Proton, the Steam Deck and phones are recognised by KIF's own checks
+
 ## Kanto Reloaded Legacy Update #9 - Hotfixes
 
 v1.6.1
